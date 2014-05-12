@@ -2,13 +2,6 @@ body {
 	bgcolor:#fff;
 }
 
-li {
-	display: inline-block;
-	font-size: 13px;
-	font-family: arial, sans-serif;
-	color:#222;
-}
-
 .header {
 	height: 60px;
 	padding-left:20px;
@@ -36,15 +29,11 @@ li {
 	border-top-color: #e4e4e4;
 	border-top-style: solid;
 	border-top-width: 1px;
+	position:fixed;
+	bottom:0;
+	width:100%;
 }
 
-.left_li {
-	padding-left: 27px;
-	color:#666;
-	vertical-align: middle;
-	display:inline-block
-
-}
 
 .hlink {
 	display: inline;
@@ -84,7 +73,7 @@ li {
 	opacity: 0.6
 }
 
-div div a {
+#share_text {
 
 	line-height: 30px;
 	color: #404040;
@@ -104,3 +93,25 @@ div div a {
 	cursor:default;
 	vertical-align:middle;
 }
+
+#l_footer {
+	float:left;
+}
+
+#r_footer {
+	float:right;
+	margin-right: 30px;
+
+}
+
+.f_links {
+	line-height: 40px;
+	padding-left: 27px;
+	color:#666;
+	display:inline-block;
+	text-decoration:none;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+
+}
+
