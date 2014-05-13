@@ -119,9 +119,17 @@ body {
 #search_bar {
 	margin-top:20px;
 	position:relative;
-	width:41%;
 	height: 22px; 
 	text-align: left;
-	margin-left:29%;
+	width:41%;
 
+
+}
+
+.search {
+	text-align: center;
+}
+
+.button {
+	margin-top:20px;
 }
